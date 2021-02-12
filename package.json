@@ -1,6 +1,6 @@
 {
   "name": "@qhnu/react-template",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "browserslist": {
     "production": [
       "last 5 chrome version",
@@ -39,7 +39,7 @@
     "stylelint-config-styled-components": "^0.1.1"
   },
   "devDependencies": {
-    "@qhnu/config": "^2.0.0",
+    "@qhnu/config": "^2.0.1",
     "@qhnu/ts-template": "^2.0.2"
   },
   "license": "MIT",

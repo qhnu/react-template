@@ -4,8 +4,7 @@ import { ThemeProvider } from 'styled-components'
 import { GlobalStyle } from '../components/head'
 import { defaultTheme } from '../components/head/GlobalStyle/theme'
 
-// import 'app-reset/app-reset.css' wait for npm publish
-import '../components/head/GlobalStyle/app-reset.css'
+import '@qhnu/config/css/reset.css'
 import '../components/head/GlobalStyle/global.css'
 
 const App = ({ Component, pageProps }: AppProps): JSX.Element => {

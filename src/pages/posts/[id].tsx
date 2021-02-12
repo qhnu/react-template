@@ -2,7 +2,7 @@ import { NextSeo } from 'next-seo'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React, { useState, useEffect } from 'react'
-import { SampleButton } from '../../components/button'
+import { SampleButtonRef } from '../../components/button'
 
 const Post: React.FC = () => {
   const router = useRouter()
@@ -24,8 +24,8 @@ const Post: React.FC = () => {
     <>
       <NextSeo title={post?.title} />
 
-      <Link href={`/posts`}>
-        <SampleButton className="margin-1rem">back</SampleButton>
+      <Link href={`/posts`} passHref>
+        <SampleButtonRef className="margin-1rem">back</SampleButtonRef>
       </Link>
 
       {post && (

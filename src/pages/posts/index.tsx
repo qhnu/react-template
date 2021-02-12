@@ -1,7 +1,7 @@
 import { NextSeo } from 'next-seo'
 import Link from 'next/link'
 import React, { useState, useEffect } from 'react'
-import { SampleButton } from '../../components/button'
+import { SampleButtonRef } from '../../components/button'
 
 const Posts: React.FC = () => {
   const [posts, setPosts] = useState<Schema.Post[]>([])
@@ -19,14 +19,16 @@ const Posts: React.FC = () => {
     <>
       <NextSeo title={'posts一覧'} />
 
-      <Link href={`/`}>
-        <SampleButton className="margin-1rem">back</SampleButton>
+      <Link href={`/`} passHref>
+        <SampleButtonRef className="margin-1rem">back</SampleButtonRef>
       </Link>
 
       <div>
         {posts.map((post, index) => (
-          <Link href={`posts/${post.id}`} key={index}>
-            <SampleButton className="margin-1rem">id: {post.id}</SampleButton>
+          <Link href={`posts/${post.id}`} key={index} passHref>
+            <SampleButtonRef className="margin-1rem">
+              id: {post.id}
+            </SampleButtonRef>
           </Link>
         ))}
       </div>

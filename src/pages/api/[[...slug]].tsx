@@ -4,8 +4,8 @@ export default async (
   req: NextApiRequest,
   res: NextApiResponse
 ): Promise<void> => {
-  // const {
-  //   query: { slug },
-  // } = req
-  res.status(200).json({ hi: 'hi' })
+  const {
+    query: { slug },
+  } = req
+  res.status(200).json(slug)
 }
