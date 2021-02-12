@@ -717,10 +717,10 @@
   resolved "https://registry.yarnpkg.com/@opentelemetry/context-base/-/context-base-0.14.0.tgz#c67fc20a4d891447ca1a855d7d70fa79a3533001"
   integrity sha512-sDOAZcYwynHFTbLo6n8kIbLiVF3a3BLkrmehJUyEbT9F+Smbi47kLGS2gG2g0fjBLR/Lr1InPD7kXL7FaTqEkw==
 
-"@qhnu/config@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@qhnu/config/-/config-2.0.2.tgz#119dbf4c6dff30bf5f5a52c08fce3e28b636a40d"
-  integrity sha512-5svpGt8Z8vBtbGZIKIK3Ko9WeYWBC8lUvsqdR9m3rqP6iDmDKi2qnTNxarYYj2KBOFrGq5AK74BEwVYf2Nlmng==
+"@qhnu/config@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@qhnu/config/-/config-2.0.4.tgz#e443c3958d10d6aa242e23e3f40102a6ff0aeafd"
+  integrity sha512-PFvd18C7eXg9ZoJak5i3SLuaXgReQ7iXKIphlQ7V0LBxOR8n1YwX5kWxVqZabwZoRboNoi1M5yV6RudV+yEMlg==
 
 "@qhnu/libs@^2.0.2":
   version "2.0.2"
