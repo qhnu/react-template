@@ -1,3 +1,6 @@
+# self
+!.gitignore
+
 # next output
 /dist/**
 !/dist/.gitkeep
