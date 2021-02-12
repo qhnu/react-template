@@ -25,11 +25,11 @@ const Post: React.FC = () => {
       <NextSeo title={post?.title} />
 
       <Link href={`/posts`} passHref>
-        <SampleButtonRef className="margin-1rem">back</SampleButtonRef>
+        <SampleButtonRef css="margin: 16px">back</SampleButtonRef>
       </Link>
 
       {post && (
-        <div className="padding-1rem">
+        <div css="padding: 16px">
           <p css="font-size: 2rem;">id: {post.id}</p>
           <p css="font-size: 2rem;">title: {post.title}</p>
           <p>body: {post.body}</p>

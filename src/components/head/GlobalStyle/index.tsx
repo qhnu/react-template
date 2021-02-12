@@ -1,8 +1,8 @@
 import { createGlobalStyle } from 'styled-components'
 
 const enable = {
-  selectText: true,
-  longTapCallout: true,
+  userSelect: true,
+  touchCallout: true,
 }
 
 export const GlobalStyle = createGlobalStyle`
@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
       p.theme['html.background-color']
         ? `background-color: ${p.theme['html.background-color']};`
         : ''}
-    user-select: ${enable.selectText ? 'auto' : 'none'};
-    -webkit-touch-callout: ${enable.longTapCallout ? 'default' : 'none'};
+    user-select: ${enable.userSelect ? 'auto' : 'none'};
+    -webkit-touch-callout: ${enable.touchCallout ? 'default' : 'none'};
   }
 `

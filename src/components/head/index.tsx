@@ -1,1 +1,1 @@
-export * from './GlobalStyle/GlobalStyle'
+export * from './GlobalStyle'

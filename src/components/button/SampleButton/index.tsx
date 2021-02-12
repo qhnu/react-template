@@ -1,7 +1,7 @@
 import { darken, lighten } from 'polished'
 import React from 'react'
 import { forwardRef } from 'react'
-import styled from 'styled-components'
+import styled, { CSSProp } from 'styled-components'
 
 const color = 'hsl(0, 0%, 80%)'
 
@@ -27,7 +27,7 @@ const Button = styled.button<Pick<Props, 'fill'>>`
 
 interface Props {
   as?: React.ElementType
-  className?: string
+  css?: CSSProp
   disabled?: boolean
   onClick?: React.MouseEventHandler
   fill?: boolean

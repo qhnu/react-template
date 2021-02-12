@@ -4,8 +4,7 @@ import { ThemeProvider } from 'styled-components'
 import { GlobalStyle } from '../components/head'
 import { defaultTheme } from '../components/head/GlobalStyle/theme'
 
-import '@qhnu/config/css/reset.css'
-import '../components/head/GlobalStyle/global.css'
+import '@qhnu/libs/css/reset.css'
 
 const App = ({ Component, pageProps }: AppProps): JSX.Element => {
   useEffect(() => {

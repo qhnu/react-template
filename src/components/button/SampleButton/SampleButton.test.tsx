@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react'
 import UserEvent from '@testing-library/user-event'
 import React from 'react'
-import { SampleButton } from './SampleButton'
+import { SampleButton } from '.'
 
 describe('Sample', () => {
   it('show button', () => {

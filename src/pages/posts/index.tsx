@@ -20,15 +20,13 @@ const Posts: React.FC = () => {
       <NextSeo title={'posts一覧'} />
 
       <Link href={`/`} passHref>
-        <SampleButtonRef className="margin-1rem">back</SampleButtonRef>
+        <SampleButtonRef css="margin: 16px">back</SampleButtonRef>
       </Link>
 
       <div>
         {posts.map((post, index) => (
           <Link href={`posts/${post.id}`} key={index} passHref>
-            <SampleButtonRef className="margin-1rem">
-              id: {post.id}
-            </SampleButtonRef>
+            <SampleButtonRef css="margin: 16px">id: {post.id}</SampleButtonRef>
           </Link>
         ))}
       </div>
