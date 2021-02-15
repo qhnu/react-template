@@ -24,7 +24,6 @@
     "**/*.jsx",
     "**/*.cjs",
     "**/*.mjs",
-    "**/*.d.ts",
-    "bin/copy-template"
+    "**/*.d.ts"
   ]
 }
