@@ -1,16 +1,17 @@
 import { GlobalStyle } from '@/components/head/GlobalStyle'
 import { defaultTheme } from '@/components/head/GlobalStyle/theme'
 import type { AppProps } from 'next/app'
-import React, { useEffect } from 'react'
+import React from 'react'
+import { useEffectOnce } from 'react-use'
 import { RecoilRoot } from 'recoil'
 import { ThemeProvider } from 'styled-components'
 
 import '@qhnu/libs/css/reset.css'
 
 const App = ({ Component, pageProps }: AppProps): JSX.Element => {
-  useEffect(() => {
+  useEffectOnce(() => {
     document.documentElement.setAttribute('lang', navigator.language)
-  }, [])
+  })
   return (
     <RecoilRoot>
       <ThemeProvider theme={defaultTheme}>
