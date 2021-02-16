@@ -1,8 +1,8 @@
+import { SampleButtonRef } from '@/components/button/SampleButton'
 import { NextSeo } from 'next-seo'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React, { useState, useEffect } from 'react'
-import { SampleButtonRef } from '../../components/button'
 
 const Post: React.FC = () => {
   const router = useRouter()

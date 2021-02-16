@@ -1,8 +1,8 @@
+import { SampleButton, SampleButtonRef } from '@/components/button/SampleButton'
 import { NextPage } from 'next'
 import { NextSeo } from 'next-seo'
 import Link from 'next/link'
 import React, { useState, useCallback } from 'react'
-import { SampleButton, SampleButtonRef } from '../components/button'
 
 const Index: NextPage = () => {
   const [data, setData] = useState('null')

@@ -1,7 +1,7 @@
+import { SampleButtonRef } from '@/components/button/SampleButton'
 import { NextSeo } from 'next-seo'
 import Link from 'next/link'
 import React, { useState, useEffect } from 'react'
-import { SampleButtonRef } from '../../components/button'
 
 const Posts: React.FC = () => {
   const [posts, setPosts] = useState<Schema.Post[]>([])
