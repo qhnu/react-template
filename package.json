@@ -19,7 +19,7 @@
   "dependencies": {
     "@testing-library/react": "^11.2.5",
     "@testing-library/react-hooks": "^5.0.3",
-    "@testing-library/user-event": "^12.7.0",
+    "@testing-library/user-event": "^12.7.1",
     "@types/css-font-loading-module": "^0.0.4",
     "@types/styled-components": "^5.1.7",
     "app-reset": "^1.0.2",
@@ -32,6 +32,7 @@
     "polished": "^4.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "recoil": "^0.1.2",
     "styled-components": "^5.2.1",
     "stylelint": "^13.10.0",
     "stylelint-config-recess-order": "^2.3.0",
@@ -39,9 +40,9 @@
     "stylelint-config-styled-components": "^0.1.1"
   },
   "devDependencies": {
-    "@qhnu/config": "^2.0.4",
+    "@qhnu/config": "^2.0.5",
     "@qhnu/libs": "^2.0.2",
-    "@qhnu/ts-template": "^2.0.2"
+    "@qhnu/ts-template": "^2.0.3"
   },
   "license": "MIT",
   "publishConfig": {
