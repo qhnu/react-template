@@ -1,6 +1,6 @@
 {
   "name": "@qhnu/react-template",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "browserslist": {
     "production": [
       "last 5 chrome version",
@@ -20,7 +20,6 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/react-hooks": "^5.0.3",
     "@testing-library/user-event": "^12.7.1",
-    "@types/css-font-loading-module": "^0.0.4",
     "@types/styled-components": "^5.1.7",
     "app-reset": "^1.0.2",
     "babel-plugin-styled-components": "^1.12.0",
@@ -41,8 +40,8 @@
   },
   "devDependencies": {
     "@qhnu/config": "^2.0.5",
-    "@qhnu/libs": "^2.0.2",
-    "@qhnu/ts-template": "^2.0.3"
+    "@qhnu/libs": "^2.0.6",
+    "@qhnu/ts-template": "^2.0.4"
   },
   "license": "MIT",
   "publishConfig": {

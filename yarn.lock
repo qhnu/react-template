@@ -671,35 +671,34 @@
   resolved "https://registry.yarnpkg.com/@qhnu/config/-/config-2.0.5.tgz#c45319e8740ff947cba58fa796546a8bb07a6a42"
   integrity sha512-hidg6/KlNeNZZTnR9ogeqUPRP0fT90bELMq/S05zyEnUD+rKSeuHa7eUQk30nVEaozJkDK/tGlSqollB0oPlCg==
 
-"@qhnu/libs@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@qhnu/libs/-/libs-2.0.2.tgz#51d3364beb1b8dc199dfc86b55adef79894d5687"
-  integrity sha512-wkhDoNLjjeYJoitDoaGTL/WwwUFSwpZSsYE5IqwFv5YNKoqIgfSHsKgLPCc15hCZml6sRIwOmw33xLz9iMITZQ==
+"@qhnu/libs@^2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@qhnu/libs/-/libs-2.0.6.tgz#898c90dc40975cc5a718b8fcbc3b84e9ba33be66"
+  integrity sha512-Czz9lWQYA9HZAN1893UjNDKd5RAHEgyq85bfLflVbxHCqrTC+PE15eTiRMQ/dGr8xBd5LI+4RaXI6H7gCi6KTg==
   dependencies:
+    "@types/css-font-loading-module" "^0.0.4"
     "@types/lodash" "^4.14.168"
     "@types/micromatch" "^4.0.1"
     croppr "^2.3.1"
-    date-holidays "^1.9.1"
+    date-holidays "^2.0.0"
     dayjs "^1.10.4"
     delay "^5.0.0"
-    esbuild "^0.8.44"
     fast-glob "^3.2.5"
     lodash "^4.17.20"
     nanoid "^3.1.20"
     pure-color "^1.3.0"
     react-loops "^1.3.0"
-    react-query "^3.8.3"
+    react-query "^3.9.8"
     react-spring "^8.0.27"
     react-superellipse "^0.0.6"
     react-use "^17.1.1"
-    recoil "^0.1.2"
     smartcrop "^2.0.3"
     smooth-scroll-into-view-if-needed "^1.1.29"
 
-"@qhnu/ts-template@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@qhnu/ts-template/-/ts-template-2.0.3.tgz#eaf740b9828f3c0d7cc9d82268abdc2fcfd5a199"
-  integrity sha512-u56zYxo/VMBYB4msDmTARrgrhT8hTK/Wsw/bN7d8ACo5cWDdLWFbuXcdE43bIjFgrF2uyVYT3Wb2KHOF7L2fNw==
+"@qhnu/ts-template@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@qhnu/ts-template/-/ts-template-2.0.4.tgz#7d7e2ee76e2427cde4af1842e1f3b0e87c68da8a"
+  integrity sha512-Ki8TW1egK92G/DoyBkJFTY0X8VaeC687bQVSApXH+WmRdHwplcrkQUrlIh46+Eb1VG/XSBGJH5KQo3rXEDNLug==
   dependencies:
     "@types/jest" "^26.0.20"
     "@types/webpack-env" "^1.16.0"
@@ -2377,10 +2376,10 @@ date-easter@^0.2.5:
   resolved "https://registry.yarnpkg.com/date-easter/-/date-easter-0.2.5.tgz#85ddce23ee4e08b7b71fd3420c89d3d3576bec2f"
   integrity sha512-pMvZSqQgPBqnUQEHhRMy7f8Dk3KYY/NPFMFHGK4mU+xM1+SX+zc9IoQMcNtS3HuJjCn3mp0GQwBzsZXz3Thjww==
 
-date-holidays-parser@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/date-holidays-parser/-/date-holidays-parser-1.6.0.tgz#13a8a1ae43247bdebbabfabf5035e684b18b9f05"
-  integrity sha512-2+4lB0pVVZ/MP/DuKlHhG68FYFBwYRB4KOgqiEs1W2Pp2Qok0mh2+gHqAy1qZA6+o1I2ARfbI3vmm8pnItVQ5g==
+date-holidays-parser@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/date-holidays-parser/-/date-holidays-parser-2.1.0.tgz#244c05fcb090a4d361a192fb8e859fc17e68a5f8"
+  integrity sha512-zp7fgv5VjCi9LUQimaqElSSsAvNL5ELqXJOvfpdyO9wuKUq7ElBL8kCUtCxXVPt0sf/L8LBf2slTWlCpze0wlw==
   dependencies:
     astronomia "^2.2.0"
     caldate "^1.1.0"
@@ -2390,12 +2389,12 @@ date-holidays-parser@^1.6.0:
     deepmerge "^4.2.2"
     moment-timezone "^0.5.32"
 
-date-holidays@^1.9.1:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/date-holidays/-/date-holidays-1.9.1.tgz#26900ea9d0906080eb3e6b5f0ce998398e672c8a"
-  integrity sha512-hhTLcACqPlNEsj+tzFy01R6qrPuABLO3rLRGK4/ZLGC9mbHLCqKYcHQu4WgMFGkadus2IeMjIrS+pzf+sELrsg==
+date-holidays@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/date-holidays/-/date-holidays-2.0.0.tgz#f6d722e8d61e942110455ad2a1247146a028aee2"
+  integrity sha512-9VtllBHWpL1UtI21MXvq0QLq0I5BuLNeOWXEirY3Jal7kVUJ/h9XlZO9a1Ydoe+98RmkEZ1Q8oM7P0w+uV+oAQ==
   dependencies:
-    date-holidays-parser "^1.6.0"
+    date-holidays-parser "^2.1.0"
     js-yaml "^4.0.0"
     lodash.omit "^4.5.0"
     lodash.pick "^4.4.0"
@@ -2782,11 +2781,6 @@ esbuild@^0.7.15:
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.7.22.tgz#9149b903f8128b7c45a754046c24199d76bbe08e"
   integrity sha512-B43SYg8LGWYTCv9Gs0RnuLNwjzpuWOoCaZHTWEDEf5AfrnuDMerPVMdCEu7xOdhFvQ+UqfP2MGU9lxEy0JzccA==
 
-esbuild@^0.8.44:
-  version "0.8.46"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.46.tgz#8fc7230ce3019b12e2553399f0c03875a729c26b"
-  integrity sha512-xck9sXNCNmjDHCCfxTCyhKTiFuEBweh+IDAhMLOJI990v1Fzii6MyIkT1LbkvjgoVgPX2SK1kpi5eZVGNrl8yg==
-
 escalade@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
@@ -2863,9 +2857,9 @@ eslint-plugin-import@^2.22.1:
     tsconfig-paths "^3.9.0"
 
 eslint-plugin-jest@~24.1.3:
-  version "24.1.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.1.3.tgz#fa3db864f06c5623ff43485ca6c0e8fc5fe8ba0c"
-  integrity sha512-dNGGjzuEzCE3d5EPZQ/QGtmlMotqnYWD/QpCZ1UuZlrMAdhG5rldh0N0haCvhGnUkSeuORS5VNROwF9Hrgn3Lg==
+  version "24.1.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.1.4.tgz#3025163e94c9819d3817815bd618fbf5c62c157c"
+  integrity sha512-Xly8okNrsR6xwo94SqvdH8eCyHoK7AegEK+6Me63eY/60Q8iZr6Y81WhtqktrEOHu9Q4188Cj9CfMU6H9P5JBA==
   dependencies:
     "@typescript-eslint/experimental-utils" "^4.0.1"
 
@@ -6355,10 +6349,10 @@ react-loops@^1.3.0:
   dependencies:
     iterall "^1.2.0"
 
-react-query@^3.8.3:
-  version "3.9.7"
-  resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.9.7.tgz#324c697f418827c129c8c126d233c6052bb1e35e"
-  integrity sha512-vpQgRFOljd7Lr1wL8hOwxWzb7awLIjaeqaq6DJ1fzA8N9mK1fAkK+UVrt8WaXJGBfz7JEnfCiXuENQspk0N7Sw==
+react-query@^3.9.8:
+  version "3.9.8"
+  resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.9.8.tgz#b6345af86f81b342eb228b11d2415a7a04ca5ada"
+  integrity sha512-cO3DdlHFSE/FDeIhrYVfYaUPm7ElmMW/3sp1QaMSP/aiGfsM62a2gRwd34YVA4dBchNk22L9yu2fZ657A6cdvA==
   dependencies:
     "@babel/runtime" "^7.5.5"
     match-sorter "^6.0.2"
