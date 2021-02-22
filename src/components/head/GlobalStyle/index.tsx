@@ -6,7 +6,6 @@ const enable = {
 }
 
 export const GlobalStyle = createGlobalStyle`
-  /* stylelint-disable */
   html {
     ${(p) =>
       p.theme['html.background-color']
