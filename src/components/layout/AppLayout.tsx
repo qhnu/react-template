@@ -1,5 +1,4 @@
 import { SampleButton, SampleButtonRef } from '@/components/button/SampleButton'
-import { NextSeo } from 'next-seo'
 import Link from 'next/link'
 import React, { useState, useCallback } from 'react'
 
@@ -14,7 +13,6 @@ export const AppLayout: React.FC = () => {
 
   return (
     <>
-      <NextSeo description="description" title="title" />
       <p css="margin: 16px; font-size: 32px;">IndexPage</p>
 
       <Link href={'/posts'} passHref>

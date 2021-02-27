@@ -1,6 +1,6 @@
 {
   "name": "@qhnu/react-template",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "browserslist": {
     "production": [
       "last 5 chrome version",
@@ -19,7 +19,7 @@
   "dependencies": {
     "@testing-library/react": "^11.2.5",
     "@testing-library/react-hooks": "^5.0.3",
-    "@testing-library/user-event": "^12.7.1",
+    "@testing-library/user-event": "^12.7.3",
     "@types/styled-components": "^5.1.7",
     "app-reset": "^1.0.2",
     "babel-plugin-styled-components": "^1.12.0",
@@ -27,20 +27,20 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "http-server": "^0.12.3",
     "next-compose-plugins": "^2.2.1",
-    "next-seo": "^4.19.0",
-    "polished": "^4.1.0",
+    "next-seo": "^4.20.0",
+    "polished": "^4.1.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "recoil": "^0.1.2",
     "styled-components": "^5.2.1",
-    "stylelint": "^13.10.0",
+    "stylelint": "^13.11.0",
     "stylelint-config-recess-order": "^2.3.0",
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-config-styled-components": "^0.1.1"
   },
   "devDependencies": {
     "@qhnu/config": "^2.0.5",
-    "@qhnu/libs": "^2.0.6",
+    "@qhnu/libs": "^2.0.11",
     "@qhnu/ts-template": "^2.0.4"
   },
   "license": "MIT",
@@ -48,10 +48,11 @@
     "access": "public"
   },
   "scripts": {
-    "build:dev": "next dev",
+    "build:dev": "next dev -p 3000",
+    "build:prd": "next build && next start -p 3001",
+    "build:start": "next start -p 3001",
+    "build:export": "next build && next export -o dist/export && http-server dist/export",
     "commit": "git add -A && cz",
-    "deploy:export": "next build && next export -o dist/export && http-server dist/export",
-    "deploy:node": "next build && next start",
     "fixpack": "fixpack",
     "test:type": "tsc --noEmit",
     "test:watch": "jest --watchAll",
