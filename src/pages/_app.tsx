@@ -7,7 +7,7 @@ import React from 'react'
 import { useEffectOnce } from 'react-use'
 import { ThemeProvider } from 'styled-components'
 
-import '@qhnu/libs/src/css/reset.css'
+import '@qhnu/libs/src/reset.css'
 
 const RecoilRoot = dynamic(
   async () => {

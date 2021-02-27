@@ -1,4 +1,7 @@
-import { downloadFontByBin, downloadFontByStylesheet } from '@qhnu/libs'
+import {
+  downloadFontByBin,
+  downloadFontByStylesheet,
+} from '@qhnu/libs/src/fonts'
 
 export type FontFamily = ''
 
